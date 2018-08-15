@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Welcome To HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="http://www.google.com" onsubmit="return validateForm()">
+        <input id="id1" name="UN" placeholder="Username"
+            onkeypress="changeOfElements(1)"/>
+        <span style="color: red" id="spanUN"></span>
+        <br>
+        <input type="password" id="id2" name="PWD" placeholder="Password" 
+            onkeypress="changeOfElements(2)"/>
+        <span style="color: red" id="spanPWD"></span>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
+<script>
+    //alertMe();
+</script>
